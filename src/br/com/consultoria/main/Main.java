@@ -10,6 +10,7 @@ import br.com.consultoria.util.JPAUtil;
 
 public class Main {
 	public static void main(String[] args) {
+		int i = 0;
 		Empresa e = new Empresa();
         Projeto p = new Projeto();
         Pessoa pe = new Pessoa();
@@ -31,13 +32,14 @@ public class Main {
 
         pe.setNome("Jorge");
         
+        do {
+        	System.out.println(" --- Consultoria --- \n 1 - Inserir Consulta \n 2- Buscar \n 3 - Atulizar \n 4 - Excluir \n 0 - Sair \n Digite o número da opção: ");
+        	
+        }while(i != 0);
+        
 		EntityManager manager = new JPAUtil().getEntityManager();
 		manager.getTransaction().begin();
 		
-		manager.persist(c);
-		manager.persist(pe);
-		manager.persist(p);
-		manager.persist(e);
 		
 		manager.close();
 	}
