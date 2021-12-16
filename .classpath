@@ -11,8 +11,8 @@
 	<classpathentry kind="lib" path="lib/classmate-1.5.1.jar"/>
 	<classpathentry kind="lib" path="lib/FastInfoset-1.2.15.jar"/>
 	<classpathentry kind="lib" path="lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
-	<classpathentry kind="lib" path="lib/hibernate-core-5.6.0.Final.jar"/>
-	<classpathentry kind="lib" path="lib/hibernate-jpamodelgen-5.6.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-5.6.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpamodelgen-5.6.2.Final.jar"/>
 	<classpathentry kind="lib" path="lib/istack-commons-runtime-3.0.7.jar"/>
 	<classpathentry kind="lib" path="lib/jandex-2.2.3.Final.jar"/>
 	<classpathentry kind="lib" path="lib/javax.activation-api-1.2.0.jar"/>
