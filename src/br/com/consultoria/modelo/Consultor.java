@@ -1,6 +1,9 @@
 package br.com.consultoria.modelo;
 
+import java.util.List;
+
 import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 
 @Entity
@@ -9,8 +12,8 @@ public class Consultor extends Pessoa{
 	private Integer num_consultor;
     private String especializacao;
     
-    //@ManyToMany(mappedBy = "consultor")
-    //private List<Projeto> projetos;
+    @ManyToMany(mappedBy = "consultor")
+    private List<Projeto> projetos;
     
     public Consultor() {
         super();
